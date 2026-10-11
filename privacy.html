@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Email Digest: Privacy Policy</title>
+<style>
+  body { font: 16px/1.6 system-ui, sans-serif; max-width: 42rem; margin: 2rem auto; padding: 0 1rem; color: #222; background: #fff; }
+  h1 { font-size: 1.6rem; } h2 { font-size: 1.15rem; margin-top: 1.6rem; }
+</style>
+</head>
+<body>
+<h1>Email Digest: Privacy Policy</h1>
+<p>Last updated: 12 October 2026</p>
+
+<p>Email Digest is a private tool used only by its owner to summarise their own email accounts.
+It is not offered to the public.</p>
+
+<h2>What data is accessed</h2>
+<p>With the account owner's permission (Google OAuth, read-only scope <code>gmail.readonly</code>),
+the tool reads messages in the inbox that arrived since its previous run: sender, subject, date and message text.
+It cannot send, change or delete email.</p>
+
+<h2>How the data is used</h2>
+<ul>
+  <li>The sender, subject, date and a shortened version of each message (at most about 1,500 characters) are sent to
+      the Anthropic API (Claude) to decide which emails need attention.</li>
+  <li>A short summary is sent to the owner's own Telegram chat.</li>
+  <li>Nothing is used for advertising, sold, or shared with anyone else.</li>
+</ul>
+
+<h2>Storage</h2>
+<p>Email contents are not stored. The tool keeps only the access tokens, the time of its last run, and run logs
+(counts, no message contents), on a private server that only the owner can access.</p>
+
+<h2>Google API Services User Data Policy</h2>
+<p>Email Digest's use and transfer of information received from Google APIs adheres to the
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+including the Limited Use requirements.</p>
+
+<h2>Revoking access</h2>
+<p>Access can be removed at any time at
+<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+<h2>Contact</h2>
+<p><a href="mailto:contact@davidhlt.com">contact@davidhlt.com</a></p>
+</body>
+</html>
